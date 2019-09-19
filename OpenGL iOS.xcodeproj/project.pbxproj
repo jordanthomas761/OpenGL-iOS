@@ -9,37 +9,73 @@
 /* Begin PBXBuildFile section */
 		6D348CDF203BD2450037A509 /* GLKMatrix+Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D348CDE203BD2450037A509 /* GLKMatrix+Array.swift */; };
 		6D36AE1B2022534A00B43B3A /* container.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D36AE1A2022534A00B43B3A /* container.jpg */; };
+		6D3D8BC2212B0E6C00AFDD93 /* triangle.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D3D8BC1212B0E6C00AFDD93 /* triangle.vsh */; };
+		6D3D8BC4212B0E9B00AFDD93 /* triangle.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D3D8BC3212B0E9B00AFDD93 /* triangle.fsh */; };
 		6D3FF63720A2049100ECD0CD /* JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3FF63620A2049100ECD0CD /* JoyStick.swift */; };
 		6D4122A02030BA1300102C6B /* send_pics.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D41229F2030BA1300102C6B /* send_pics.jpg */; };
+		6D75E6BD211AD551007320A0 /* JoystickDriverShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D75E6BC211AD551007320A0 /* JoystickDriverShader.vsh */; };
+		6D75E6BF211AD625007320A0 /* JoystickDriverShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D75E6BE211AD625007320A0 /* JoystickDriverShader.fsh */; };
+		6D75E6C1211AD66C007320A0 /* JoystickBackgroundShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D75E6C0211AD66C007320A0 /* JoystickBackgroundShader.vsh */; };
+		6D75E6C5211AD6BC007320A0 /* JoystickBackgroundShader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6D75E6C4211AD6BC007320A0 /* JoystickBackgroundShader.fsh */; };
 		6D98FB75202E324F00BABA7C /* awesomeface.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D98FB74202E324F00BABA7C /* awesomeface.png */; };
-		6DDA7AAF2013BF4A00BC7682 /* VertexShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA7AAE2013BF4A00BC7682 /* VertexShader.glsl */; };
-		6DDA7AB12013BF5E00BC7682 /* FragmentShader.glsl in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA7AB02013BF5E00BC7682 /* FragmentShader.glsl */; };
+		6DA2D50F210E7946003C3621 /* joystickDriver.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2D50D210E7946003C3621 /* joystickDriver.png */; };
+		6DA2D510210E7946003C3621 /* joystickBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA2D50E210E7946003C3621 /* joystickBackground.png */; };
+		6DAB2149211B4CE400D63265 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAB2148211B4CE400D63265 /* Triangle.swift */; };
+		6DC9E37822EFC0B4004B55F0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9E37722EFC0B4004B55F0 /* TableViewController.swift */; };
+		6DC9E37A22F05E0E004B55F0 /* LightingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC9E37922F05E0E004B55F0 /* LightingViewController.swift */; };
+		6DDA7AAF2013BF4A00BC7682 /* Box.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA7AAE2013BF4A00BC7682 /* Box.vsh */; };
+		6DDA7AB12013BF5E00BC7682 /* Box.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6DDA7AB02013BF5E00BC7682 /* Box.fsh */; };
 		6DDA7AB3201400BD00BC7682 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA7AB2201400BD00BC7682 /* Vertex.swift */; };
 		6DDA7AB52014025F00BC7682 /* BaseEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDA7AB42014025F00BC7682 /* BaseEffect.swift */; };
 		6DE00D202012E88D005F69BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE00D1F2012E88D005F69BA /* AppDelegate.swift */; };
-		6DE00D222012E88D005F69BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE00D212012E88D005F69BA /* ViewController.swift */; };
+		6DE00D222012E88D005F69BA /* BoxesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE00D212012E88D005F69BA /* BoxesViewController.swift */; };
 		6DE00D252012E88D005F69BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE00D232012E88D005F69BA /* Main.storyboard */; };
 		6DE00D272012E88D005F69BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DE00D262012E88D005F69BA /* Assets.xcassets */; };
 		6DE00D2A2012E88D005F69BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DE00D282012E88D005F69BA /* LaunchScreen.storyboard */; };
+		6DE0A1CD22F3542400BD185E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0A1CC22F3542400BD185E /* Button.swift */; };
+		6DE0A1CF22F3658A00BD185E /* GraphicsFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE0A1CE22F3658A00BD185E /* GraphicsFunctions.swift */; };
+		6DE5EF8122F232ED00D8FB34 /* Lighting.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5EF8022F232ED00D8FB34 /* Lighting.fsh */; };
+		6DE5EF8522F234B400D8FB34 /* Lamp.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5EF8422F234B400D8FB34 /* Lamp.fsh */; };
+		6DE5EF8722F2352E00D8FB34 /* Lighting.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5EF8622F2352E00D8FB34 /* Lighting.vsh */; };
+		6DE5EF8A22F237FB00D8FB34 /* container2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5EF8822F237FA00D8FB34 /* container2.png */; };
+		6DE5EF8B22F237FB00D8FB34 /* container2_specular.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DE5EF8922F237FB00D8FB34 /* container2_specular.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6D348CDE203BD2450037A509 /* GLKMatrix+Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GLKMatrix+Array.swift"; sourceTree = "<group>"; };
 		6D36AE1A2022534A00B43B3A /* container.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = container.jpg; sourceTree = "<group>"; };
+		6D3D8BC1212B0E6C00AFDD93 /* triangle.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = triangle.vsh; sourceTree = "<group>"; };
+		6D3D8BC3212B0E9B00AFDD93 /* triangle.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = triangle.fsh; sourceTree = "<group>"; };
 		6D3FF63620A2049100ECD0CD /* JoyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoyStick.swift; sourceTree = "<group>"; };
 		6D41229F2030BA1300102C6B /* send_pics.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = send_pics.jpg; sourceTree = "<group>"; };
+		6D75E6BC211AD551007320A0 /* JoystickDriverShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = JoystickDriverShader.vsh; sourceTree = "<group>"; };
+		6D75E6BE211AD625007320A0 /* JoystickDriverShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = JoystickDriverShader.fsh; sourceTree = "<group>"; };
+		6D75E6C0211AD66C007320A0 /* JoystickBackgroundShader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = JoystickBackgroundShader.vsh; sourceTree = "<group>"; };
+		6D75E6C4211AD6BC007320A0 /* JoystickBackgroundShader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = JoystickBackgroundShader.fsh; sourceTree = "<group>"; };
 		6D98FB74202E324F00BABA7C /* awesomeface.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = awesomeface.png; sourceTree = "<group>"; };
-		6DDA7AAE2013BF4A00BC7682 /* VertexShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = VertexShader.glsl; sourceTree = "<group>"; };
-		6DDA7AB02013BF5E00BC7682 /* FragmentShader.glsl */ = {isa = PBXFileReference; lastKnownFileType = text; path = FragmentShader.glsl; sourceTree = "<group>"; };
+		6DA2D50D210E7946003C3621 /* joystickDriver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickDriver.png; sourceTree = "<group>"; };
+		6DA2D50E210E7946003C3621 /* joystickBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = joystickBackground.png; sourceTree = "<group>"; };
+		6DAB2148211B4CE400D63265 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		6DC9E37722EFC0B4004B55F0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6DC9E37922F05E0E004B55F0 /* LightingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightingViewController.swift; sourceTree = "<group>"; };
+		6DDA7AAE2013BF4A00BC7682 /* Box.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Box.vsh; sourceTree = "<group>"; };
+		6DDA7AB02013BF5E00BC7682 /* Box.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Box.fsh; sourceTree = "<group>"; };
 		6DDA7AB2201400BD00BC7682 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
 		6DDA7AB42014025F00BC7682 /* BaseEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseEffect.swift; sourceTree = "<group>"; };
 		6DE00D1C2012E88D005F69BA /* OpenGL iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DE00D1F2012E88D005F69BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6DE00D212012E88D005F69BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6DE00D212012E88D005F69BA /* BoxesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxesViewController.swift; sourceTree = "<group>"; };
 		6DE00D242012E88D005F69BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6DE00D262012E88D005F69BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6DE00D292012E88D005F69BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6DE00D2B2012E88D005F69BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DE0A1CC22F3542400BD185E /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		6DE0A1CE22F3658A00BD185E /* GraphicsFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphicsFunctions.swift; sourceTree = "<group>"; };
+		6DE5EF8022F232ED00D8FB34 /* Lighting.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Lighting.fsh; sourceTree = "<group>"; };
+		6DE5EF8422F234B400D8FB34 /* Lamp.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Lamp.fsh; sourceTree = "<group>"; };
+		6DE5EF8622F2352E00D8FB34 /* Lighting.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = Lighting.vsh; sourceTree = "<group>"; };
+		6DE5EF8822F237FA00D8FB34 /* container2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = container2.png; sourceTree = "<group>"; };
+		6DE5EF8922F237FB00D8FB34 /* container2_specular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = container2_specular.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,23 +108,57 @@
 		6DE00D1E2012E88D005F69BA /* OpenGL iOS */ = {
 			isa = PBXGroup;
 			children = (
+				6DE5EF8322F233EB00D8FB34 /* textures */,
+				6DE5EF8222F2330600D8FB34 /* shaders */,
 				6DE00D1F2012E88D005F69BA /* AppDelegate.swift */,
-				6DE00D212012E88D005F69BA /* ViewController.swift */,
+				6DE00D212012E88D005F69BA /* BoxesViewController.swift */,
 				6DDA7AB42014025F00BC7682 /* BaseEffect.swift */,
 				6DDA7AB2201400BD00BC7682 /* Vertex.swift */,
+				6DC9E37922F05E0E004B55F0 /* LightingViewController.swift */,
 				6DE00D232012E88D005F69BA /* Main.storyboard */,
+				6DC9E37722EFC0B4004B55F0 /* TableViewController.swift */,
 				6DE00D262012E88D005F69BA /* Assets.xcassets */,
 				6DE00D282012E88D005F69BA /* LaunchScreen.storyboard */,
 				6DE00D2B2012E88D005F69BA /* Info.plist */,
+				6D348CDE203BD2450037A509 /* GLKMatrix+Array.swift */,
+				6D3FF63620A2049100ECD0CD /* JoyStick.swift */,
+				6DAB2148211B4CE400D63265 /* Triangle.swift */,
+				6DE0A1CC22F3542400BD185E /* Button.swift */,
+				6DE0A1CE22F3658A00BD185E /* GraphicsFunctions.swift */,
+			);
+			path = "OpenGL iOS";
+			sourceTree = "<group>";
+		};
+		6DE5EF8222F2330600D8FB34 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6D3D8BC1212B0E6C00AFDD93 /* triangle.vsh */,
+				6D3D8BC3212B0E9B00AFDD93 /* triangle.fsh */,
+				6DDA7AAE2013BF4A00BC7682 /* Box.vsh */,
+				6DDA7AB02013BF5E00BC7682 /* Box.fsh */,
+				6DE5EF8622F2352E00D8FB34 /* Lighting.vsh */,
+				6DE5EF8022F232ED00D8FB34 /* Lighting.fsh */,
+				6D75E6BC211AD551007320A0 /* JoystickDriverShader.vsh */,
+				6D75E6BE211AD625007320A0 /* JoystickDriverShader.fsh */,
+				6D75E6C0211AD66C007320A0 /* JoystickBackgroundShader.vsh */,
+				6D75E6C4211AD6BC007320A0 /* JoystickBackgroundShader.fsh */,
+				6DE5EF8422F234B400D8FB34 /* Lamp.fsh */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		6DE5EF8322F233EB00D8FB34 /* textures */ = {
+			isa = PBXGroup;
+			children = (
+				6DE5EF8922F237FB00D8FB34 /* container2_specular.png */,
+				6DE5EF8822F237FA00D8FB34 /* container2.png */,
 				6D41229F2030BA1300102C6B /* send_pics.jpg */,
 				6D98FB74202E324F00BABA7C /* awesomeface.png */,
 				6D36AE1A2022534A00B43B3A /* container.jpg */,
-				6DDA7AAE2013BF4A00BC7682 /* VertexShader.glsl */,
-				6DDA7AB02013BF5E00BC7682 /* FragmentShader.glsl */,
-				6D348CDE203BD2450037A509 /* GLKMatrix+Array.swift */,
-				6D3FF63620A2049100ECD0CD /* JoyStick.swift */,
+				6DA2D50E210E7946003C3621 /* joystickBackground.png */,
+				6DA2D50D210E7946003C3621 /* joystickDriver.png */,
 			);
-			path = "OpenGL iOS";
+			path = textures;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "Jordan Thomas";
 				TargetAttributes = {
 					6DE00D1B2012E88D005F69BA = {
@@ -150,14 +220,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DDA7AB12013BF5E00BC7682 /* FragmentShader.glsl in Resources */,
+				6DDA7AB12013BF5E00BC7682 /* Box.fsh in Resources */,
+				6D3D8BC4212B0E9B00AFDD93 /* triangle.fsh in Resources */,
 				6D36AE1B2022534A00B43B3A /* container.jpg in Resources */,
 				6DE00D2A2012E88D005F69BA /* LaunchScreen.storyboard in Resources */,
+				6D75E6C1211AD66C007320A0 /* JoystickBackgroundShader.vsh in Resources */,
 				6DE00D272012E88D005F69BA /* Assets.xcassets in Resources */,
+				6DE5EF8A22F237FB00D8FB34 /* container2.png in Resources */,
 				6D4122A02030BA1300102C6B /* send_pics.jpg in Resources */,
+				6DE5EF8522F234B400D8FB34 /* Lamp.fsh in Resources */,
+				6DE5EF8122F232ED00D8FB34 /* Lighting.fsh in Resources */,
+				6D75E6C5211AD6BC007320A0 /* JoystickBackgroundShader.fsh in Resources */,
+				6DE5EF8B22F237FB00D8FB34 /* container2_specular.png in Resources */,
+				6DA2D510210E7946003C3621 /* joystickBackground.png in Resources */,
+				6D75E6BF211AD625007320A0 /* JoystickDriverShader.fsh in Resources */,
 				6DE00D252012E88D005F69BA /* Main.storyboard in Resources */,
-				6DDA7AAF2013BF4A00BC7682 /* VertexShader.glsl in Resources */,
+				6DA2D50F210E7946003C3621 /* joystickDriver.png in Resources */,
+				6D3D8BC2212B0E6C00AFDD93 /* triangle.vsh in Resources */,
+				6DE5EF8722F2352E00D8FB34 /* Lighting.vsh in Resources */,
+				6DDA7AAF2013BF4A00BC7682 /* Box.vsh in Resources */,
 				6D98FB75202E324F00BABA7C /* awesomeface.png in Resources */,
+				6D75E6BD211AD551007320A0 /* JoystickDriverShader.vsh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,10 +252,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D348CDF203BD2450037A509 /* GLKMatrix+Array.swift in Sources */,
-				6DE00D222012E88D005F69BA /* ViewController.swift in Sources */,
+				6DE00D222012E88D005F69BA /* BoxesViewController.swift in Sources */,
+				6DC9E37A22F05E0E004B55F0 /* LightingViewController.swift in Sources */,
 				6DE00D202012E88D005F69BA /* AppDelegate.swift in Sources */,
+				6DC9E37822EFC0B4004B55F0 /* TableViewController.swift in Sources */,
+				6DE0A1CD22F3542400BD185E /* Button.swift in Sources */,
 				6DDA7AB3201400BD00BC7682 /* Vertex.swift in Sources */,
 				6DDA7AB52014025F00BC7682 /* BaseEffect.swift in Sources */,
+				6DAB2149211B4CE400D63265 /* Triangle.swift in Sources */,
+				6DE0A1CF22F3658A00BD185E /* GraphicsFunctions.swift in Sources */,
 				6D3FF63720A2049100ECD0CD /* JoyStick.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +301,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -220,6 +309,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -270,6 +360,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -277,6 +368,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

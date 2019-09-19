@@ -87,11 +87,19 @@ extension BaseEffect {
         
         
     }
+	
+	func setInt(name: UnsafePointer<GLchar>!, value: GLint) {
+		glUniform1i(glGetUniformLocation(self.programHandle, name), value)
+	}
     
     func setFloat(name: UnsafePointer<GLchar>!, value: GLfloat) {
         glUniform1f(glGetUniformLocation(self.programHandle, name), value)
     }
-    
+	
+	func setVec3(name: UnsafePointer<GLchar>!, x: GLfloat, y:GLfloat, z:GLfloat) {
+		glUniform3f(glGetUniformLocation(self.programHandle, name), x, y, z)
+	}
+	
     func setMat4(name: UnsafePointer<GLchar>!, value: GLKMatrix4) {
         glUniformMatrix4fv(glGetUniformLocation(self.programHandle, name), 1, GLboolean(GL_FALSE), value.array)
     }
